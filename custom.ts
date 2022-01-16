@@ -7,8 +7,78 @@ namespace animations {
      * Makes the LEDs on the Microbit Grow!
      * @param ms How Many Milliseconds In Between Growing Stages
      */
-    //% block=""
+    //% block="grow with $ms milliseconds between growing stages"
     export function grow(ms:number): void {
-        // Add code here
+        basic.showLeds(`
+        # . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        `)
+        basic.pause(ms)
+        basic.showLeds(`
+        # # . . .
+        # . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        `)
+        basic.pause(ms)
+        basic.showLeds(`
+        # # # . .
+        # # . . .
+        # . . . .
+        . . . . .
+        . . . . .
+        `)
+        basic.pause(ms)
+        basic.showLeds(`
+        # # # # .
+        # # # . .
+        # # . . .
+        # . . . .
+        . . . . .
+        `)
+        basic.pause(ms)
+        basic.showLeds(`
+        # # # # #
+        # # # # .
+        # # # . .
+        # # . . .
+        # . . . .
+        `)
+        basic.pause(ms)
+        basic.showLeds(`
+        # # # # #
+        # # # # #
+        # # # # .
+        # # # . .
+        # # . . .
+        `)
+        basic.pause(ms)
+        basic.showLeds(`
+        # # # # #
+        # # # # #
+        # # # # #
+        # # # # .
+        # # # . .
+        `)
+        basic.pause(ms)
+        basic.showLeds(`
+        # # # # #
+        # # # # #
+        # # # # #
+        # # # # #
+        # # # # .
+        `)
+        basic.pause(ms)
+        basic.showLeds(`
+        # # # # #
+        # # # # #
+        # # # # #
+        # # # # #
+        # # # # #
+        `)
     }   
 } 
