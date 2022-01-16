@@ -8,8 +8,7 @@ namespace animations {
      * @param ms How Many Milliseconds In Between Growing Stages
      */
     //% block="grow with $ms milliseconds between growing stages"
-    //% ms.min=1 ms.max=10000
-    //% ms.fieldOptions.precision=1
+    //% ms.shadow=timePicker
     export function grow(ms:number): void {
         basic.showLeds(`
         # . . . .
