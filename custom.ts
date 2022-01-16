@@ -1,7 +1,7 @@
 /**
  * Animation Blocks
  */
-//% weight=100 color=#5eff00 icon=""
+//% weight=100 color=#0000ff icon="\uf0a3"
 namespace animations {
     /**
      * Makes the LEDs on the Microbit Grow!
