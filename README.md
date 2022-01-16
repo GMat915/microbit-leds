@@ -1,6 +1,16 @@
 
 > Open this page at [https://gmat915.github.io/microbit-shrink-n-grow/](https://gmat915.github.io/microbit-shrink-n-grow/)
 
+## Usage
+
+### Grow #animations.grow
+
+Makes the LEDs On the Microbit Grow With a Certain Number of Milliseconds In Between Growing Stages!
+
+```blocks
+animations.grow(1000)
+```
+
 ## Use as Extension
 
 This repository can be added as an **extension** in MakeCode.
@@ -17,13 +27,6 @@ To edit this repository in MakeCode.
 * open [https://makecode.microbit.org/](https://makecode.microbit.org/)
 * click on **Import** then click on **Import URL**
 * paste **https://github.com/gmat915/microbit-shrink-n-grow** and click import
-
-## Blocks preview
-
-This image shows the blocks code from the last commit in master.
-This image may take a few minutes to refresh.
-
-![A rendered view of the blocks](https://github.com/gmat915/microbit-shrink-n-grow/raw/master/.github/makecode/blocks.png)
 
 #### Metadata (used for search, rendering)
 
