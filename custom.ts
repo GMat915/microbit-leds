@@ -82,7 +82,10 @@ namespace animations {
         # # # # #
         `)
     }
-
+    /**
+     * Makes the LEDs on the Microbit Shrink!
+     * @param ms How Many Milliseconds In Between Shrinking Stages
+     */
     //% block="shrink with $ms milliseconds between shrinking stages"
     //% ms.shadow=timePicker
     export function shrink(ms: number): void {
