@@ -18,7 +18,7 @@ This repository can be added as an **extension** in MakeCode.
 * open [https://makecode.microbit.org/](https://makecode.microbit.org/)
 * click on **New Project**
 * click on **Extensions** under the gearwheel menu
-* search for **https://github.com/gmat915/microbit-shrink-n-grow** and import
+* search for **https://github.com/gmat915/microbit-leds** and import
 
 ## Edit this project ![Build status badge](https://github.com/gmat915/microbit-shrink-n-grow/workflows/MakeCode/badge.svg)
 
@@ -26,7 +26,7 @@ To edit this repository in MakeCode.
 
 * open [https://makecode.microbit.org/](https://makecode.microbit.org/)
 * click on **Import** then click on **Import URL**
-* paste **https://github.com/gmat915/microbit-shrink-n-grow** and click import
+* paste **https://github.com/gmat915/microbit-leds** and click import
 
 #### Metadata (used for search, rendering)
 
