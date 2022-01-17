@@ -1,5 +1,5 @@
 
-> Open this page at [https://gmat915.github.io/microbit-shrink-n-grow/](https://gmat915.github.io/microbit-shrink-n-grow/)
+> Open this page at [https://gmat915.github.io/microbit-leds/](https://gmat915.github.io/microbit-leds/)
 
 ## Usage
 
