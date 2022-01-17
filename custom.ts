@@ -81,5 +81,89 @@ namespace animations {
         # # # # #
         # # # # #
         `)
-    }   
+    }
+
+    //% block="shrink with $ms milliseconds between shrinking stages"
+    //% ms.shadow=timePicker
+    export function shrink(ms: number): void {
+        basic.showLeds(`
+    # # # # #
+    # # # # #
+    # # # # #
+    # # # # #
+    # # # # #
+    `)
+        basic.pause(ms)
+        basic.showLeds(`
+    # # # # #
+    # # # # #
+    # # # # #
+    # # # # #
+    # # # # .
+    `)
+        basic.pause(ms)
+        basic.showLeds(`
+    # # # # #
+    # # # # #
+    # # # # #
+    # # # # .
+    # # # . .
+    `)
+        basic.pause(ms)
+        basic.showLeds(`
+    # # # # #
+    # # # # #
+    # # # # .
+    # # # . .
+    # # . . .
+    `)
+        basic.pause(ms)
+        basic.showLeds(`
+    # # # # #
+    # # # # .
+    # # # . .
+    # # . . .
+    # . . . .
+    `)
+        basic.pause(ms)
+        basic.showLeds(`
+    # # # # .
+    # # # . .
+    # # . . .
+    # . . . .
+    . . . . .
+    `)
+        basic.pause(ms)
+        basic.showLeds(`
+    # # # . .
+    # # . . .
+    # . . . .
+    . . . . .
+    . . . . .
+    `)
+        basic.pause(ms)
+        basic.showLeds(`
+    # # . . .
+    # . . . .
+    . . . . .
+    . . . . .
+    . . . . .
+    `)
+        basic.pause(ms)
+        basic.showLeds(`
+    # . . . .
+    . . . . .
+    . . . . .
+    . . . . .
+    . . . . .
+    `)
+        basic.pause(ms)
+        basic.showLeds(`
+    . . . . .
+    . . . . .
+    . . . . .
+    . . . . .
+    . . . . .
+    `)
+    }
 } 
